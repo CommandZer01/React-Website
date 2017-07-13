@@ -1,0 +1,22 @@
+#footer {
+    .footerColumn {
+        width: $col-lg-5;
+    }
+}
+
+#sidebar {
+    width: $col-lg-6;
+    overflow:auto;
+    max-height:auto;
+}
+
+#submenu {
+    width: $col-lg-17;
+    .button{
+        width:auto;
+    }
+}
+
+#content {
+    width: $col-lg-17;
+}

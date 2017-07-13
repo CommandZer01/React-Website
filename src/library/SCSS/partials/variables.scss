@@ -1,0 +1,49 @@
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Variables
+
+******************************************************************/
+
+/*********************
+COLORS
+Need help w/ choosing your colors? Try this site out:
+http://0to255.com/
+*********************/
+
+$alert-yellow:      #ebe16f;
+$alert-red:         #fbe3e4;
+$alert-green:       #e6efc2;
+$alert-blue:        #d5edf8;
+$alert-black:       #000000;
+
+$black:             #000;
+$white:             #fff;
+
+$light-gray:        #f8f9fa;
+$gray:              #eaedf2;
+$text-color:        #5c6b80;
+$meta-gray:         #9fa6b4;
+
+$tan:               #eceee5;
+
+$green:             #7dd667;
+
+$bones-pink:        #f01d4f;
+$blue:              #0083C7;
+
+$link-color:        $bones-pink;
+$link-hover:        darken($link-color, 9%);
+
+$border-color:      #ccc;
+$disabled-gray:     #cfcfcf;
+
+
+$TwoThirdsWidth:    60%;
+$OneFullWidth:      100%;
+
+$OneColumnElevenColumn:    20%;
+
+$baseTransition:     1s;
+

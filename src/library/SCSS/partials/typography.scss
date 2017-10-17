@@ -52,6 +52,13 @@ I've edited it a bit, but it's a nice starting point.
 $sans-serif:        "Helvetica Neue", Helvetica, Arial, sans-serif;
 $serif:             "Georgia", Cambria, Times New Roman, Times, serif;
 
+
+/* font weight */
+$thin: 100;
+$thick: bold;
+$medium: 500;
+$none: none;
+
 /*
  i imported this one in the functions file so bones would look sweet.
  don't forget to remove it for your site.

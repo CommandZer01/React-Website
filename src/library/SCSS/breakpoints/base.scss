@@ -6,7 +6,7 @@ body {
 .App-header {
     height: $col-lg-4;
     #HeaderNav {
-        text-align: right;
+        text-align: $right;
         width: $fg-columns;
         background-color: $blue;
         height: $col-lg-4;
@@ -14,8 +14,8 @@ body {
             background-color: $blue;
             padding: 20px;
             color: $white;
-            border: none;
-            box-shadow: none;
+            border: $none;
+            box-shadow: $none;
             &:hover,
             &:focus {
                 color: $blue;
@@ -30,13 +30,13 @@ body {
     border: 1px solid $gray;
     background-color: $white;
     color: $black;
-    float: left;
+    float: $left;
     width: $col-lg-24;
     overflow: scroll;
     max-height: 310px;
     .filteredListSearch {
         width: 97%;
-        border: none;
+        border: $none;
         font-size: $standoutFont;
         padding: 5px;
         &:focus {
@@ -48,14 +48,14 @@ body {
     ul {
         padding: 0px;
         li {
-            list-style: none;
+            list-style: $none;
             font-size: $standoutFont;
             padding-top: 10px;
             padding-left: 25px;
             padding-bottom: 10px;
             border-bottom: 1px solid $meta-gray;
             color: $meta-gray;
-            font-weight: 100;
+            font-weight: $thin;
             &:hover,
             &:focus {
                 color: $white;
@@ -70,14 +70,14 @@ body {
     border: 1px solid $gray;
     background-color: $white;
     color: $black;
-    float: right;
+    float: $right;
     width: $col-lg-24;
     .button {
         background-color: $white;
         padding: 20px;
         color: $blue;
-        border: none;
-        box-shadow: none;
+        border: $none;
+        box-shadow: $none;
         width: $col-lg-12;
         &:hover,
         &:focus {
@@ -90,14 +90,14 @@ body {
 
 #content {
     width: $col-lg-24;
-    height: 100%;
-    float: right;
+    height: $col-lg-24;
+    float: $right;
     color: $black;
     border: 1px solid $gray;
     background-color: $white;
     .ContentAreaTextArea {
         overflow: hidden;
-        resize: none;
+        resize: $none;
         width: 98%;
         min-height: 500px;
         font-size: $normalFont;
@@ -105,8 +105,8 @@ body {
     button {
         background-color: $blue;
         color: $white;
-        border: none;
-        box-shadow: none;
+        border: $none;
+        box-shadow: $none;
         padding: 12px;
         font-size: $normalFont;
         margin-right: 2px;
@@ -122,12 +122,12 @@ body {
     width: $col-lg-24;
     background-color: $white;
     text-align: center;
-    float: left;
+    float: $left;
     height: auto;
     .footerColumn {
         background-color: $white;
         height: auto;
-        float: left;
+        float: $left;
         color: $black;
         width: $col-lg-22;
         margin: $col-sm-1;
@@ -179,14 +179,14 @@ h4,
 h5,
 .h5 {
     text-rendering: optimizelegibility;
-    font-weight: 500;
+    font-weight: $medium;
     /*
 	if you're going to use webfonts, be sure to check your weights
 	http://css-tricks.com/watch-your-font-weight/
 	*/
     /* removing text decoration from all headline links */
     a {
-        text-decoration: none;
+        text-decoration: $none;
     }
 }
 
@@ -224,7 +224,7 @@ h5,
 }
 
 .loginArea {
-    display: none;
+    display: $none;
     background-color: $black;
     height: 100vh;
     width: 100vw;
@@ -234,25 +234,25 @@ h5,
         width: 10em;
         position: absolute;
         padding: 5em;
-        left: 40%;
-        top: 40%;
+        left: $left-20;
+        top: $top-20;
         background-color: $gray;
         #formUserName {
-            float: left;
+            float: $left;
             border-radius: 0px;
             font-size: $normalFont;
         }
         #formPassword {
             border-radius: 0px;
-            float: left;
+            float: $left;
             font-size: $normalFont;
         }
         #formEnterButton {
-            float: left;
+            float: $left;
             background-color: $blue;
             margin: 10px;
-            border: none;
-            box-shadow: none;
+            border: $none;
+            box-shadow: $none;
             color: $white;
             font-size: $normalFont;
         }
